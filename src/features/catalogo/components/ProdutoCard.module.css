@@ -1,0 +1,77 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid var(--cor-borda);
+    border-radius: 8px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categoria {
+    color: var(--cor-marca);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.selo {
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    background: var(--cor-marca);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.nome {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.descricao {
+    flex: 1;
+    margin: 0;
+    color: var(--cor-suave);
+    font-size: 0.9rem;
+}
+
+.preco {
+    margin: 0.25rem 0 0;
+    font-size: 1.15rem;
+}
+
+.preco s {
+    margin-right: 0.35rem;
+    color: var(--cor-suave);
+    font-size: 0.9rem;
+}
+
+.estoque {
+    margin: 0;
+    color: var(--cor-suave);
+    font-size: 0.85rem;
+}
+
+.esgotado {
+    color: var(--cor-erro);
+    font-weight: 600;
+}
+
+.acoes {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.acoes button {
+    flex: 1;
+    padding: 0.35rem 0.5rem;
+}
